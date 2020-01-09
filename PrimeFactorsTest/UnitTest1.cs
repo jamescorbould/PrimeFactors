@@ -20,6 +20,17 @@ namespace PrimeFactorsTest
             Assert.True(Product(factors) == 1000);
         }
 
+        [Theory]
+        [InlineData(3, 3)]
+        [InlineData(5, 5)]
+        [InlineData(9, 9)]
+        [InlineData(1000, 1000)]
+        public void TestProductCalculation(int leafLeft, int leafRight)
+        {
+            var factors = new List<int>(){ leafLeft, leafRight };
+            Assert.True(Product(factors) == leafLeft * leafRight);
+        }
+
         public int Product(List<int> primes)
         {
             int product = 1;
