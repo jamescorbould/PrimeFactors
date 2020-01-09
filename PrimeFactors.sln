@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactors", "PrimeFactor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsTest", "PrimeFactorsTest\PrimeFactorsTest.csproj", "{DA551BFB-4A7A-4C98-8C8D-8743EE4AC3E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsLib", "PrimeFactorsLib\PrimeFactorsLib.csproj", "{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{DA551BFB-4A7A-4C98-8C8D-8743EE4AC3E8}.Release|x64.Build.0 = Release|Any CPU
 		{DA551BFB-4A7A-4C98-8C8D-8743EE4AC3E8}.Release|x86.ActiveCfg = Release|Any CPU
 		{DA551BFB-4A7A-4C98-8C8D-8743EE4AC3E8}.Release|x86.Build.0 = Release|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Debug|x64.Build.0 = Debug|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Release|x64.ActiveCfg = Release|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Release|x64.Build.0 = Release|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F677184-3C4B-4F8A-ABDC-8742DCFD041A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
